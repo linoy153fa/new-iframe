@@ -1,0 +1,244 @@
+.App {
+  text-align: center;
+}
+
+
+body{
+  margin: 0;
+  background-color: rgb(238, 238, 245);
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.myCmp{
+  width: 300px;
+  height:1000px;
+  background-color: #2e333b;
+  margin-left: 14px;
+ 
+}
+
+.container{
+  display: flex;
+  position: fixed;
+  top: 0;
+  margin-left:15px;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.toy-card{
+  display: flex;
+  color: whitesmoke;
+  flex-direction: column;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  /* width: 500px; */
+  /* height: 200px; */
+  height: fit-content;
+  align-items: center;
+  font-size: 0.5rem;
+  
+  
+}
+.mail{
+  border-bottom:1px solid rgb(138, 138, 179);
+  border-top:1px solid rgb(138, 138, 179);
+  padding: 10px
+}
+
+.toy-card img{
+  height: 150px;
+  width: 150px;
+}
+
+
+.toy-list{
+  background-color: #26262d;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* gap: 10px; */
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  /* margin-left: 590px; */
+  /* width: 700px; */
+  
+}
+
+.toy-details{
+  text-align: center;
+}
+.main-nav{
+  display: flex;
+}
+.bar{
+  background-color: #61dafb;
+  height: 30px;
+  width: 30px;
+}
+.obj{
+  height: 100vh;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  position:absolute;
+  right:0;
+  top:85px;
+  /* border:0.3px solid black; */
+  background-color: #282c34;
+}
+.as{
+
+  color: white;
+      font-size: larger;
+      margin: 20px;
+}
+
+div.hamburger-react{
+  height: 30px;
+width: 30px;
+display: flex;
+position: relative;
+top: 7px;
+color:white;
+}
+
+
+.toy-list a{
+  font-size: medium;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(0, 179, 179);
+  border-radius: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  transition: .3s;
+  border: none;
+}
+
+.add{
+  background-color: rgb(0, 179, 179);
+  font-size: medium;
+  padding: 5px;
+  margin: 5px;
+  background-color: rgb(0, 179, 179);
+  border-radius: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+}
+
+a{
+  text-decoration: none;
+}
+
+.toy-list a:hover, .del:hover{
+  background-color: rgba(0, 179, 179, 0.454);
+}
+
+.add{
+  margin: 100px;
+}
+
+.toy-save, .toy-details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(1, 189, 189, 0.454);
+  width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 30px;
+  margin-top: 30vh;
+}
+
+.toy-details{
+  margin-top: 10vh;
+}
+
+input, select{
+  margin-top: 10px;
+  width: 220px;
+ 
+  padding: 5px;
+    height: 20px;
+    border-radius: 10px;
+    color: #241f2d;
+    background-color: #dbe1ec;
+}
+
+.save-label{
+  margin: 10px;
+}
+
+/* form button{
+  margin-top: 10px;
+  border: none;
+} */
+
+.app-header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #282c34;
+  padding: 20px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.app-header nav a{
+  color: white;
+  font-size: larger;
+  margin: 20px;
+}
+.app-header nav a:hover{
+  color: #919191;
+}
+
+.logo{
+  color: white;
+  font-size: xx-large;
+}
+.map{
+  background-color: #8496bb;
+ 
+}
